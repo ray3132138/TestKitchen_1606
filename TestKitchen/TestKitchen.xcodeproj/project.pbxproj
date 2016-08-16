@@ -71,6 +71,8 @@
 		BCD4BEFD1D62B9BE002151D5 /* saoyisao@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCD4BEF51D62B9BE002151D5 /* saoyisao@3x.png */; };
 		BCD4BEFE1D62B9BE002151D5 /* search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCD4BEF61D62B9BE002151D5 /* search@2x.png */; };
 		BCD4BEFF1D62B9BE002151D5 /* search@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCD4BEF71D62B9BE002151D5 /* search@3x.png */; };
+		BCD4BF031D62BD9F002151D5 /* KTCDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD4BF021D62BD9F002151D5 /* KTCDownloader.swift */; };
+		BCD4BF091D62C66F002151D5 /* CBRecommendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD4BF081D62C66F002151D5 /* CBRecommendModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -162,6 +164,8 @@
 		BCD4BEF51D62B9BE002151D5 /* saoyisao@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "saoyisao@3x.png"; sourceTree = "<group>"; };
 		BCD4BEF61D62B9BE002151D5 /* search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search@2x.png"; sourceTree = "<group>"; };
 		BCD4BEF71D62B9BE002151D5 /* search@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search@3x.png"; sourceTree = "<group>"; };
+		BCD4BF021D62BD9F002151D5 /* KTCDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTCDownloader.swift; sourceTree = "<group>"; };
+		BCD4BF081D62C66F002151D5 /* CBRecommendModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBRecommendModel.swift; sourceTree = "<group>"; };
 		D8D112EA10616D2BD0F1DCF9 /* Pods-TestKitchen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestKitchen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestKitchen/Pods-TestKitchen.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -288,6 +292,7 @@
 				BCB9C19F1D6173C9000A6F84 /* UILabel+Util.swift */,
 				BCB9C1A11D617521000A6F84 /* UIButton+Util.swift */,
 				BCD4BEEB1D62A858002151D5 /* Const.swift */,
+				BCD4BF021D62BD9F002151D5 /* KTCDownloader.swift */,
 			);
 			path = common;
 			sourceTree = "<group>";
@@ -335,6 +340,7 @@
 		BCB9C15D1D6153FB000A6F84 /* cookbook */ = {
 			isa = PBXGroup;
 			children = (
+				BCD4BF041D62C61A002151D5 /* recommend */,
 				BCB9C15E1D6153FB000A6F84 /* homePage */,
 			);
 			path = cookbook;
@@ -597,6 +603,38 @@
 			path = nav;
 			sourceTree = "<group>";
 		};
+		BCD4BF041D62C61A002151D5 /* recommend */ = {
+			isa = PBXGroup;
+			children = (
+				BCD4BF051D62C61A002151D5 /* controller */,
+				BCD4BF061D62C61A002151D5 /* model */,
+				BCD4BF071D62C61A002151D5 /* view */,
+			);
+			path = recommend;
+			sourceTree = "<group>";
+		};
+		BCD4BF051D62C61A002151D5 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		BCD4BF061D62C61A002151D5 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				BCD4BF081D62C66F002151D5 /* CBRecommendModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		BCD4BF071D62C61A002151D5 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -835,8 +873,10 @@
 				BCB9C19A1D615BC0000A6F84 /* ProfileViewController.swift in Sources */,
 				BCB9C1291D6151B9000A6F84 /* AppDelegate.swift in Sources */,
 				BCB9C18E1D615A79000A6F84 /* MainTabBarController.swift in Sources */,
+				BCD4BF031D62BD9F002151D5 /* KTCDownloader.swift in Sources */,
 				BCB9C1A01D6173C9000A6F84 /* UILabel+Util.swift in Sources */,
 				BCD4BEEC1D62A858002151D5 /* Const.swift in Sources */,
+				BCD4BF091D62C66F002151D5 /* CBRecommendModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
