@@ -89,9 +89,7 @@ class MainTabBarController: UITabBarController {
             //json文件的数据解析成功
             //并且数组里面有数据
             for dict in tmpArray {
-                let name = dict["ctrlName"]
-                ctrNames.append(name!)
-                
+                let name = dict["ctrlName"]                
                 let titleName = dict["titleName"]
                 let imageName = dict["imageName"]
                 
