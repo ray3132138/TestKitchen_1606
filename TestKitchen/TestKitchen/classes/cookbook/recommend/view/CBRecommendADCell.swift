@@ -51,7 +51,6 @@ class CBRecommendADCell: UITableViewCell {
                 //2.创建图片
                 let tmpImageView = UIImageView.createImageView(nil)
                 //在线加载图片
-                
                 /*
                  1.图片网站URL
                  2.默认显示的图片

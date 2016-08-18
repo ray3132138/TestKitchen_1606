@@ -19,6 +19,8 @@ class CookBookViewController: BaseViewController {
 
         // Do any additional setup after loading the view.
         
+        
+        
         //创建导航
         createMyNav()
         
@@ -110,8 +112,8 @@ extension CookBookViewController:KTCDownloaderDelegate{
     }
     func downloader(downloader: KTCDownloader, didFinishWithData data: NSData?) {
         
-        //let str = NSString(data: data!, encoding: NSUTF8StringEncoding)
-        //print(str!)
+//        let str = NSString(data: data!, encoding: NSUTF8StringEncoding)
+//        print(str!)
         
         if let jsonData = data{
             let model = CBRecommendModel.parseModel(jsonData)

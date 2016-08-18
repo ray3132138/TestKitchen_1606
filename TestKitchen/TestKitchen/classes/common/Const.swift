@@ -8,6 +8,11 @@
 
 import UIKit
 
+
+
+
+
+
 //屏幕的宽度和高度
 public let kScreenWidth = UIScreen.mainScreen().bounds.size.width
 public let kScreenHeight = UIScreen.mainScreen().bounds.size.height
