@@ -59,6 +59,11 @@
 		BCBB4F5F1D640A1900640E2E /* sdefaultImage.png in Resources */ = {isa = PBXBuildFile; fileRef = BCBB4F5E1D640A1900640E2E /* sdefaultImage.png */; };
 		BCBB4F631D64174300640E2E /* CBRecommendLikeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBB4F611D64174300640E2E /* CBRecommendLikeCell.swift */; };
 		BCBB4F641D64174300640E2E /* CBRecommendLikeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCBB4F621D64174300640E2E /* CBRecommendLikeCell.xib */; };
+		BCCCE4FC1D6BDAB500C93352 /* CBSubjectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCCE4FA1D6BDAB500C93352 /* CBSubjectCell.swift */; };
+		BCCCE4FD1D6BDAB500C93352 /* CBSubjectCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCCCE4FB1D6BDAB500C93352 /* CBSubjectCell.xib */; };
+		BCCCE5031D6BEA3A00C93352 /* CBMaterialModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCCE5021D6BEA3A00C93352 /* CBMaterialModel.swift */; };
+		BCCCE5051D6BF70100C93352 /* CBMaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCCE5041D6BF70100C93352 /* CBMaterialView.swift */; };
+		BCCCE5071D6BFC6000C93352 /* KTCSegmentCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCCE5061D6BFC6000C93352 /* KTCSegmentCtrl.swift */; };
 		BCD4BED31D62A168002151D5 /* community_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCD4BEBB1D62A168002151D5 /* community_normal@2x.png */; };
 		BCD4BED41D62A168002151D5 /* community_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCD4BEBC1D62A168002151D5 /* community_normal@3x.png */; };
 		BCD4BED51D62A168002151D5 /* community_select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCD4BEBD1D62A168002151D5 /* community_select@2x.png */; };
@@ -178,6 +183,11 @@
 		BCBB4F5E1D640A1900640E2E /* sdefaultImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sdefaultImage.png; sourceTree = "<group>"; };
 		BCBB4F611D64174300640E2E /* CBRecommendLikeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBRecommendLikeCell.swift; sourceTree = "<group>"; };
 		BCBB4F621D64174300640E2E /* CBRecommendLikeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CBRecommendLikeCell.xib; sourceTree = "<group>"; };
+		BCCCE4FA1D6BDAB500C93352 /* CBSubjectCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBSubjectCell.swift; sourceTree = "<group>"; };
+		BCCCE4FB1D6BDAB500C93352 /* CBSubjectCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CBSubjectCell.xib; sourceTree = "<group>"; };
+		BCCCE5021D6BEA3A00C93352 /* CBMaterialModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBMaterialModel.swift; sourceTree = "<group>"; };
+		BCCCE5041D6BF70100C93352 /* CBMaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBMaterialView.swift; sourceTree = "<group>"; };
+		BCCCE5061D6BFC6000C93352 /* KTCSegmentCtrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTCSegmentCtrl.swift; sourceTree = "<group>"; };
 		BCD4BEBB1D62A168002151D5 /* community_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "community_normal@2x.png"; sourceTree = "<group>"; };
 		BCD4BEBC1D62A168002151D5 /* community_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "community_normal@3x.png"; sourceTree = "<group>"; };
 		BCD4BEBD1D62A168002151D5 /* community_select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "community_select@2x.png"; sourceTree = "<group>"; };
@@ -347,6 +357,7 @@
 				BCD4BF021D62BD9F002151D5 /* KTCDownloader.swift */,
 				BCBB4F5B1D6407F700640E2E /* UIImageView+Util.swift */,
 				BCE71B9E1D654B9C0056ABFB /* Util.swift */,
+				BCCCE5061D6BFC6000C93352 /* KTCSegmentCtrl.swift */,
 			);
 			path = common;
 			sourceTree = "<group>";
@@ -394,6 +405,7 @@
 		BCB9C15D1D6153FB000A6F84 /* cookbook */ = {
 			isa = PBXGroup;
 			children = (
+				BCCCE4FE1D6BE9F200C93352 /* FoodMaterial */,
 				BCD4BF041D62C61A002151D5 /* recommend */,
 				BCB9C15E1D6153FB000A6F84 /* homePage */,
 			);
@@ -605,6 +617,39 @@
 			path = common;
 			sourceTree = "<group>";
 		};
+		BCCCE4FE1D6BE9F200C93352 /* FoodMaterial */ = {
+			isa = PBXGroup;
+			children = (
+				BCCCE4FF1D6BE9F200C93352 /* controller */,
+				BCCCE5001D6BE9F200C93352 /* model */,
+				BCCCE5011D6BE9F200C93352 /* view */,
+			);
+			path = FoodMaterial;
+			sourceTree = "<group>";
+		};
+		BCCCE4FF1D6BE9F200C93352 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		BCCCE5001D6BE9F200C93352 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				BCCCE5021D6BEA3A00C93352 /* CBMaterialModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		BCCCE5011D6BE9F200C93352 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				BCCCE5041D6BF70100C93352 /* CBMaterialView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		BCD4BEBA1D62A168002151D5 /* tabbar */ = {
 			isa = PBXGroup;
 			children = (
@@ -717,6 +762,8 @@
 				BC9AA6001D66AB0000E5D8EE /* CBHeaderView.swift */,
 				BC9AA6041D66B15000E5D8EE /* CBSpecialCell.swift */,
 				BC9AA6051D66B15000E5D8EE /* CBSpecialCell.xib */,
+				BCCCE4FA1D6BDAB500C93352 /* CBSubjectCell.swift */,
+				BCCCE4FB1D6BDAB500C93352 /* CBSubjectCell.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -857,6 +904,7 @@
 				BCD4BEFC1D62B9BE002151D5 /* saoyisao@2x.png in Resources */,
 				BCD4BEFD1D62B9BE002151D5 /* saoyisao@3x.png in Resources */,
 				BCD4BEE21D62A168002151D5 /* report_select@3x.png in Resources */,
+				BCCCE4FD1D6BDAB500C93352 /* CBSubjectCell.xib in Resources */,
 				BCD4BED91D62A168002151D5 /* home_select@2x.png in Resources */,
 				BC8950B31D6AE5BF00C842DF /* CBTalentCell.xib in Resources */,
 				BCD4BEE81D62A168002151D5 /* shop_normal@3x.png in Resources */,
@@ -962,6 +1010,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCB9C12B1D6151B9000A6F84 /* ViewController.swift in Sources */,
+				BCCCE5031D6BEA3A00C93352 /* CBMaterialModel.swift in Sources */,
 				BC9AA5FA1D66943E00E5D8EE /* CBRecommendNewCell.swift in Sources */,
 				BCB9C1901D615AC2000A6F84 /* BaseViewController.swift in Sources */,
 				BCE71BA11D655AE80056ABFB /* CBSearchHeaderView.swift in Sources */,
@@ -975,14 +1024,17 @@
 				BCE71BA61D6563240056ABFB /* CBRedPackertCell.swift in Sources */,
 				BCB9C1981D615B8E000A6F84 /* FoodClassViewController.swift in Sources */,
 				BCB9C19E1D61731B000A6F84 /* UIView+Util.swift in Sources */,
+				BCCCE4FC1D6BDAB500C93352 /* CBSubjectCell.swift in Sources */,
 				BCB9C19A1D615BC0000A6F84 /* ProfileViewController.swift in Sources */,
 				BC8950B41D6AE5BF00C842DF /* CBWorksCell.swift in Sources */,
 				BCB9C1291D6151B9000A6F84 /* AppDelegate.swift in Sources */,
 				BCBB4F561D63FBB700640E2E /* CBRecommendView.swift in Sources */,
 				BC8950B01D6AE5BF00C842DF /* CBSceneCell.swift in Sources */,
 				BCB9C18E1D615A79000A6F84 /* MainTabBarController.swift in Sources */,
+				BCCCE5051D6BF70100C93352 /* CBMaterialView.swift in Sources */,
 				BC8950B21D6AE5BF00C842DF /* CBTalentCell.swift in Sources */,
 				BCBB4F5C1D6407F700640E2E /* UIImageView+Util.swift in Sources */,
+				BCCCE5071D6BFC6000C93352 /* KTCSegmentCtrl.swift in Sources */,
 				BCD4BF031D62BD9F002151D5 /* KTCDownloader.swift in Sources */,
 				BCB9C1A01D6173C9000A6F84 /* UILabel+Util.swift in Sources */,
 				BCBB4F591D63FF4500640E2E /* CBRecommendADCell.swift in Sources */,
