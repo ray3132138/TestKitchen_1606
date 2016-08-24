@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		26AFE88BDE62997118D003F3 /* Pods_TestKitchen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E07E68B95AF72B1EBFABE60 /* Pods_TestKitchen.framework */; };
+		BC88D1011D6D3B0A00E20D26 /* CBMaterialCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC88D1001D6D3B0A00E20D26 /* CBMaterialCell.swift */; };
 		BC8950B01D6AE5BF00C842DF /* CBSceneCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8950AA1D6AE5BF00C842DF /* CBSceneCell.swift */; };
 		BC8950B11D6AE5BF00C842DF /* CBSceneCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC8950AB1D6AE5BF00C842DF /* CBSceneCell.xib */; };
 		BC8950B21D6AE5BF00C842DF /* CBTalentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8950AC1D6AE5BF00C842DF /* CBTalentCell.swift */; };
@@ -126,6 +127,7 @@
 /* Begin PBXFileReference section */
 		033C890E9AE42BA926FFB8F4 /* Pods-TestKitchen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestKitchen.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestKitchen/Pods-TestKitchen.release.xcconfig"; sourceTree = "<group>"; };
 		8E07E68B95AF72B1EBFABE60 /* Pods_TestKitchen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestKitchen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC88D1001D6D3B0A00E20D26 /* CBMaterialCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBMaterialCell.swift; sourceTree = "<group>"; };
 		BC8950AA1D6AE5BF00C842DF /* CBSceneCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBSceneCell.swift; sourceTree = "<group>"; };
 		BC8950AB1D6AE5BF00C842DF /* CBSceneCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CBSceneCell.xib; sourceTree = "<group>"; };
 		BC8950AC1D6AE5BF00C842DF /* CBTalentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBTalentCell.swift; sourceTree = "<group>"; };
@@ -646,6 +648,7 @@
 			isa = PBXGroup;
 			children = (
 				BCCCE5041D6BF70100C93352 /* CBMaterialView.swift */,
+				BC88D1001D6D3B0A00E20D26 /* CBMaterialCell.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -1025,6 +1028,7 @@
 				BCB9C1981D615B8E000A6F84 /* FoodClassViewController.swift in Sources */,
 				BCB9C19E1D61731B000A6F84 /* UIView+Util.swift in Sources */,
 				BCCCE4FC1D6BDAB500C93352 /* CBSubjectCell.swift in Sources */,
+				BC88D1011D6D3B0A00E20D26 /* CBMaterialCell.swift in Sources */,
 				BCB9C19A1D615BC0000A6F84 /* ProfileViewController.swift in Sources */,
 				BC8950B41D6AE5BF00C842DF /* CBWorksCell.swift in Sources */,
 				BCB9C1291D6151B9000A6F84 /* AppDelegate.swift in Sources */,
